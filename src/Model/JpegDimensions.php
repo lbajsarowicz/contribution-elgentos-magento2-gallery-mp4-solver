@@ -14,7 +14,7 @@ namespace Elgentos\GalleryMp4Solver\Model;
  */
 class JpegDimensions
 {
-    private const string START_OF_IMAGE = "\xFF\xD8\xFF";
+    private const START_OF_IMAGE = "\xFF\xD8\xFF";
 
     /**
      * @param string $contents Raw file contents.

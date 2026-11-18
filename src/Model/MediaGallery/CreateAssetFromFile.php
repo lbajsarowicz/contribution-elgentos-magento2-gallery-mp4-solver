@@ -31,8 +31,8 @@ class CreateAssetFromFile implements CreateAssetFromFileInterface
      * asset stored as 0x0 produces a NaN tile width and breaks the row it sits in. A 16:9 default
      * keeps the layout correct; PosterStorage re-imports the video with the poster's real size.
      */
-    private const int DEFAULT_WIDTH = 1280;
-    private const int DEFAULT_HEIGHT = 720;
+    private const DEFAULT_WIDTH = 1280;
+    private const DEFAULT_HEIGHT = 720;
 
     public function __construct(
         private readonly ImageAssetFactory $imageAssetFactory,

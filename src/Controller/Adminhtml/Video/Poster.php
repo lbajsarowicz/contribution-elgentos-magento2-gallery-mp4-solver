@@ -31,7 +31,7 @@ class Poster extends Action implements HttpPostActionInterface
      * Writing a poster is writing a file into the gallery, so it takes the same permission as an
      * upload.
      */
-    public const string ADMIN_RESOURCE = 'Magento_MediaGalleryUiApi::upload_assets';
+    public const ADMIN_RESOURCE = 'Magento_MediaGalleryUiApi::upload_assets';
 
     public function __construct(
         Context $context,

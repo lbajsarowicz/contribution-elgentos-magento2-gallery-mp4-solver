@@ -25,13 +25,13 @@ class VideoLocator
     /**
      * Appended to a video's path to get its poster image.
      */
-    public const string POSTER_SUFFIX = '.jpg';
+    public const POSTER_SUFFIX = '.jpg';
 
     /**
      * Covers the poster image extensions as well as the video ones, since a poster is resolved
      * through the same lookup as the video it belongs to.
      */
-    private const array MIME_TYPES = [
+    private const MIME_TYPES = [
         'mp4' => 'video/mp4',
         'webm' => 'video/webm',
         'ogv' => 'video/ogg',

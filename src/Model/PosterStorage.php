@@ -26,9 +26,9 @@ class PosterStorage
      * Guards against a malformed or oversized data URI being written to disk. A JPEG frame of a
      * 1080p video is well under this.
      */
-    private const int MAX_POSTER_BYTES = 4194304;
+    private const MAX_POSTER_BYTES = 4194304;
 
-    private const string DATA_URI_PREFIX = 'data:image/jpeg;base64,';
+    private const DATA_URI_PREFIX = 'data:image/jpeg;base64,';
 
     public function __construct(
         private readonly Filesystem $filesystem,
